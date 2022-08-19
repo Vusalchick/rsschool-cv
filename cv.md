@@ -1,5 +1,5 @@
 # Назаров Вюсал 
-## [www.viusalnazarov@gmail.com](Почта) 
+## [vusalchick](Discord) 
   20 years old, no experience. I hope to get some useful skills and find a job in web-development 
   I have some skills in:
   1. HTML
@@ -94,5 +94,5 @@
         </div>
     </div>
 ```
-## Not finished my higher educational establishment yet (Interpreter)
-## My English LVL- middle. I had a communication with foreigners several times.
+  Not finished my higher educational establishment yet (Interpreter)
+  My English LVL- middle. I had a communication with foreigners several times.
