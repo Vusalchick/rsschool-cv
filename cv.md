@@ -1,4 +1,5 @@
-# Назаров Вюсал 
+# Назаров Вюсал
+[Alt-Me]("https://sun9-55.userapi.com/impg/GXVW9GlSmu3DjSlxYwj79Moqa70ip20LlX58GQ/iGMV50zIjm4.jpg?size=1136x640&quality=95&sign=59c6c0668935845ec2077f4eb6169f55&type=album")
 ## [vusalchick](Discord) 
   20 years old, no experience. I hope to get some useful skills and find a job in web-development 
   I have some skills in:
