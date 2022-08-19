@@ -94,5 +94,5 @@
         </div>
     </div>
 ```
-  Not finished my higher educational establishment yet (Interpreter)
+  Not finished my higher educational establishment yet (Interpreter).
   My English LVL- middle. I had a communication with foreigners several times.
