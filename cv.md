@@ -23,6 +23,7 @@
 
 ## Code examples
 ```
+
  <header class="header">
         <div class="container">
             <nav>
@@ -43,8 +44,7 @@
             </div>
         </div>
     </header>
-```
-```
+
  $radius = $_POST["radius"];
     $circumference = null;
     $area = null;
