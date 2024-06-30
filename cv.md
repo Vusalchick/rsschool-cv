@@ -1,5 +1,3 @@
-[rsschool-cv](https://github.com/Vusalchick/rsschool-cv/cv)
-*********
 # Viusal Nazarov 
 *********
 ## My contact info 
