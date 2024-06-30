@@ -1,5 +1,5 @@
 # Viusal Nazarov 
-*********
+***
 ## My contact info 
 * Address: Jakubovskogo Street, Minsk, Belarus
 * Phone: +375255257648
@@ -7,20 +7,20 @@
 * GitHub: [Vusalchick](https://github.com/Vusalchick)
 * Telegram: @befped
 * Discord: vusalchick
-*********
+***
 ## About me
   I am an english language teacher at the moment! I have been working at Streamline since 2023. 
   My main goal is to become the best version of myself. I learn foreign languages at MSLU. 
   My strengths are: 4 foreign languages and ability to develop a good rapport with different people of different ages.
   I hope to improve my programming skills and become frontend-developer. I also hope to create my own app and become a founder of a company one day!
-*********
+***
 ## Skills 
 * HTML
 * CSS
 * PHP (basic knowledge)
 * Figma
 * GitHub
-*********
+***
 ## Code examples
 ```
  <header class="header">
@@ -63,12 +63,12 @@
     echo "Area is {$area}cm^2 <br>";    
     echo "Volume is {$volume}cm^3 <br>";
 ```
-*********
+***
 ## Experience 
 * Courier at Yandex (2022)
 * English Teacher at Streamline (2023-present)
 * Self-employed developer (present)
-*********
+***
 ## Education 
 * School #534 (2009-2014, Saint-Petersburg)
 * School #167 (2014-2020, Minsk)
