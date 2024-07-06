@@ -4,37 +4,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="nav">
-            <ul>
-                <li class="school"><a href=""><img src="photo/rslogo.svg" alt="logo"></a></li>
-                <li><a href="main">Main</a></li>
-                <li><a href="skill">Skills</a></li>
-                <li><a href="edu">Education</a></li>
-                <li><a href="cont">Contacts</a></li>
-            </ul>
-        </div>
+        <div class="container">
+            <div class="nav">
+                <ul class="bar">
+                    <li class="school"><a href=""><img src="photo/rslogo.svg" alt="logo"></a></li>
+                    <li><a href="#about" class="main">Main</a></li>
+                    <li><a href="#skills" class="skill">Skills</a></li>
+                    <li><a href="#edu" class="edu">Education</a></li>
+                    <li><a href="#cont" class="conta">Contacts</a></li>
+                </ul>
+            </div>
 
-        <div class="me">
-            <img src="photo/viusal.svg" alt="Viusal">
+            <div class="me">
+                <img src="photo/viusal.svg" alt="Viusal">
 
-            <div class="name">
-                <h1>Viusal Nazarov</h1>
-                <p>Frontend-developer</p>
-                <button>Посмотреть</button>
+                <div class="name">
+                    <h1>Viusal Nazarov</h1>
+                    <p>Frontend-developer</p>
+                    <button><a href="" class="look">Посмотреть</a></button>
+                </div>
             </div>
         </div>
-
     </header>
 
     <main>
+        <div class="container">
+            <div class="about" id="about">
+                <div class="logopar">
+                    <img src="photo/aboutlogo.svg" alt="person">
+                    <h2>About me</h2>
+                </div>
+                <p align="justify">I am an english language teacher at the moment! I have been
+                    working at Streamline since 2023. My main goal is 
+                    to become the best version of myself. I learn foreign  
+                    languages at MSLU. My strengths are: 4 foreign languages  
+                    and ability to develop a good rapport with different people  
+                    of different ages. I hope to improve my programming skills  
+                    and become <br> frontend-developer. I also hope to create my  
+                    own app and become a founder of a company one day!
+                </p>
+            </div>
 
+            <div class="skills" id="skills">
+                <div class="logopar">
+                    <img src="photo/skilllogo.svg" alt="skill">
+                    <h2>Skills</h2>
+                </div>
+                <img src="photo/HTML5.png" alt="HTML5" class="html">
+                <img src="photo/CSS3.png" alt="CSS3" class="css">
+                <img src="photo/PHP.png" alt="PHP" class="php">
+                <img src="photo/Figma.png" alt="Figma" class="figma">
+                <img src="photo/github.png" alt="GitHub" class="git">
+            </div>
+
+            <div class="code examples">
+                <div class="logopar">
+                    <img src="photo/codelogo.svg" alt="code">
+                    <h2>Code examples</h2>
+                </div>
+                <code> 
+                    $radius = $_POST["radius"]; <br>
+                    $circumference = null; <br>
+                    $area = null; <br>
+                    $volume = null; <br>
+            
+                    $circumference = 2 * pi() * $radius; <br>
+                    $circumference = round($circumference, 3); <br>
+            
+                    $area = pi() * pow($radius, 2); <br>
+                    $area = round($area); <br>
+            
+                    $volume = 4 / 3 * pi() * pow($radius, 3); <br>
+                    $volume = round($volume, 2); <br>
+            
+                    echo "Circumference = {$circumference}cm"; <br>
+                    echo "Area is {$area}cm^2"; <br>
+                    echo "Volume is {$volume}cm^3"; <br>
+                </code>
+            </div>
+
+            <div class="experience">
+                <div class="logopar">
+                    <img src="photo/explogo.svg" alt="exp">
+                    <h2>Experience</h2>
+                </div>
+                <ul>
+                    <li>Courier at Yandex (2022)</li>
+                    <li>English Teacher at Streamline (2023-present)</li>
+                    <li>Self-employed developer (present)</li>
+                </ul>
+            </div>
+
+            <div class="education" id="edu">
+                <div class="logopar">
+                    <img src="photo/edulogo.svg" alt="education">
+                    <h2>Education</h2>
+                </div>
+                <ul>
+                    <li>School #534 (2009-2014, Saint-Petersburg)</li>
+                    <li>School #167 (2014-2020, Minsk)</li>
+                    <li>Minsk State Linguistic University (2020-2025, Minsk)</li>
+                </ul>
+            </div>
+
+            <div class="lang">
+                <div class="logopar">
+                    <img src="photo/lanlogo.svg" alt="language">
+                    <h2>Languages</h2>
+                </div>
+                <ul>
+                    <li>Russian (Native)</li>
+                    <li>English (Advanced) <br> <img src="photo/testresult.svg" alt="test"></li>
+                    <li>German (Intermediate)</li>
+                    <li>Azerbaijani (Intermediate)</li>
+                </ul>
+            </div>
+
+            <div class="cont" id="cont">
+                <div class="logopar">
+                    <img src="photo/contlogo.svg" alt="contacts">
+                    <h2>Contacts</h2>
+                </div>
+                <ul>
+                    <li>Address: Jakubovskogo Street, Minsk, Belarus</li>
+                    <li>Phone: +375255257648</li>
+                    <li>Email: www.viusalnazarov@gmail.com</li>
+                    <li>GitHub: Vusalchick</li>
+                    <li>Telegram: @befped</li>
+                    <li>Discord: vusalchick</li>
+                </ul>
+            </div>
+        </div>
     </main>
-
+        
     <footer>
-
+        <div class="container">
+            <p>Powered by Viusal Nazarov 2024</p>
+        </div>
     </footer>
 </body>
 </html>
