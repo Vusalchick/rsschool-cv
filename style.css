@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    margin: 0 auto;
+    padding: 0 auto;
+    height: 100%;
+    font-family: "Montserrat", sans-serif;
+    background-size: cover;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header{
+    background-color: black;
+}
+
+ul{
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.nav{
+    position: sticky;
+    top: 0;
+    background-color: black;
+}
+
+.bar{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.bar li{
+    margin-right: 150px;
+}
+
+.main{
+    color: gold;
+}
+
+.bar li:hover{
+    text-decoration: underline gold;
+}
+
+.me{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+}
+
+.me p{
+    color: gray;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+button{   
+    background-color: #F2F0EB;
+    width: 150px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+}
+
+button:hover{
+    box-shadow: #F2F0EB 0px 1px 1px 0px, #F2F0EB 0px -20px 100px -20px, #F2F0EB 0px 7px 60px -10px;
+}
+
+button a{
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 1000px;
+}
+
+.name{
+    color: white;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin: 0 auto;
+}
+
+div{
+    margin: 0 auto;
+}
+
+p{
+    margin: 0 auto;
+}
+
+.logopar{
+    display: flex;
+    font-size: 30px;
+}
+
+.logopar img{
+    margin-right: 15px;
+}
+
+.about{
+    text-align: center;
+    max-width: 1000px;
+    margin-top: 50px;
+    margin-bottom: 70px;
+}
+
+.about p{
+    font-size: 24px;
+}
+
+.skills , .code, .experience, .education{
+    max-width: 1000px;
+    margin-bottom: 70px;
+}
+
+.experience, .education, .lang, .cont{
+    font-size: 24px;
+}
+
+.html, .css, .figma, .git{
+    margin-right: 100px;
+}
+
+footer{
+    height: 100px;
+    margin-top: 20px;
+    background-color: black;
+}
+
+footer p{
+    padding-top: 20px;
+}
+
+.scopes{
+    margin-left: 550px;
+}
+
+footer img{
+    margin: 0;
+}
+
+footer div{
+    display: flex;
+}
