@@ -74,6 +74,7 @@ button:hover{
 button a{
     color: black;
     font-weight: bolder;
+    font-size: 25px;
 }
 
 .container{
@@ -135,10 +136,21 @@ p{
 footer{
     height: 100px;
     margin-top: 20px;
+    background-color: black;
 }
 
-footer div{
+footer p{
     padding-top: 20px;
 }
 
+.scopes{
+    margin-left: 550px;
+}
 
+footer img{
+    margin: 0;
+}
+
+footer div{
+    display: flex;
+}
